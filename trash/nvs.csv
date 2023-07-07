@@ -1,0 +1,13 @@
+key,type,encoding,value
+local,namespace,,
+business,data,string,parkin1
+location,data,string,garage1
+asset,data,string,lot1
+online,data,string,wss://io.abacus-ewall.de:443
+offline,data,string,ws://io.local:1883
+update,data,string,https://static.abacus-ewall.de:443/update
+ssid,data,string,Airtel
+password,data,string,12345670
+retry,data,string,5
+crt,file,string,../certificates/certificate.pem.crt
+key,file,string,../certificates/private.pem.key
